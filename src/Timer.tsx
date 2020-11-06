@@ -1,6 +1,7 @@
 // eslint-disable-next-line no-use-before-define
 import React, { FC } from 'react';
 import { Button, Icon, Card, Statistic } from 'semantic-ui-react';
+import './Timer.css';
 
 const Timer: FC = () => {
   return (
