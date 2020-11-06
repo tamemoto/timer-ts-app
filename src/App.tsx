@@ -9,7 +9,7 @@ const App: FC = () => {
       <header>
         <h1>タイマー</h1>
       </header>
-      <Timer />
+      <Timer limit={10} />
     </div>
   );
 };
